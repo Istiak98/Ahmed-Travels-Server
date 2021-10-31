@@ -56,7 +56,7 @@ async function run() {
       res.send(myOrders);
     });
 
-    // POST API(add new tour)
+    // POST API(add a new tour)
     app.post("/tours", async (req, res) => {
       const tour = req.body;
       // console.log("hit the post api", tour);
